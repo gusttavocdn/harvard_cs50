@@ -6,9 +6,9 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [
-                "Gustavo",
-                "Larissa",
-                "Nicolly"
+                "Alice",
+                "Bob",
+                "Charlie"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
