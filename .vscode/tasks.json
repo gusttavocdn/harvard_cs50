@@ -8,12 +8,11 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
-                "-lcs50",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "${fileDirname}",
+                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"

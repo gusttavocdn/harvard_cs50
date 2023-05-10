@@ -6,9 +6,8 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [
-                "Alice",
-                "Bob",
-                "Charlie"
+                "${fileDirname}/smiley.bmp",
+                "${fileDirname}/outfile.bmp"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
