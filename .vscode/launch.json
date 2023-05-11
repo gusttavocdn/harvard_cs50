@@ -6,8 +6,9 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [
-                "${fileDirname}/smiley.bmp",
-                "${fileDirname}/outfile.bmp"
+                "${fileDirname}/input.wav",
+                "${fileDirname}/output.wav",
+                "5.0"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
